@@ -32,8 +32,13 @@ namespace Naloga3_Sah
         {
             List<ChessBoardField> tempDovoljeniPremiki = new List<ChessBoardField>();
 
-            //koda, ki bo napolnila tabelo
 
+            //KODA
+            //koda, ki bo napolnila tabelo
+            //KODA
+            //koda, ki bo napolnila tabelo
+            //KODA
+            //koda, ki bo napolnila tabelo
             return tempDovoljeniPremiki;
         }
 

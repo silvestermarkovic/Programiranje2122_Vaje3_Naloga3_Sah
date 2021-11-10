@@ -13,8 +13,23 @@ namespace Naloga3_Sah
     //                  prepišemo metodo ToSting za izpis metode
     public class ChessBoardField
     {
-         
 
+        //vododravna kordinata
+        public int X { get; set; }
 
+        // Navpična koordinata
+        public int Y { get; set; }
+
+        public ChessBoardField(int X, int Y)
+        {
+            this.X = X;
+            this.Y = Y;
+        }
+
+        //prepišemo metodo ToSting za izpis metode
+        public override string ToString()
+        {
+            return $"({this.X},{this.Y})";
+        }
     }
 }
