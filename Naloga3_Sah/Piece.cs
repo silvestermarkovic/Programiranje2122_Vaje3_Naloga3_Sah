@@ -81,5 +81,5 @@ namespace Naloga3_Sah
                 Console.WriteLine($"{poz.ToString(),10}");
             }
         }
-
     }
+}

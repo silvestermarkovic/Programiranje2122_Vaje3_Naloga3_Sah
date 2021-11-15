@@ -32,13 +32,23 @@ namespace Naloga3_Sah
         {
             List<ChessBoardField> tempDovoljeniPremiki = new List<ChessBoardField>();
 
+            for (int i = -1; i <= 1; i++)
+            {
+                for (int j = -1; j <= 1; j++)
+                {
+                    if (i != 0 || j != 0)
+                    {
 
-            //KODA
-            //koda, ki bo napolnila tabelo
-            //KODA
-            //koda, ki bo napolnila tabelo
-            //KODA
-            //koda, ki bo napolnila tabelo
+                        if (this.Position.X + i >= 1 && this.Position.X + i <= 8 &&
+                            this.Position.Y + j >= 1 && this.Position.Y + j <= 8)
+                        { 
+
+                            tempDovoljeniPremiki.Add(new ChessBoardField(this.Position.X + i, this.Position.Y + j));
+                        }
+
+                    }
+                }
+            }
             return tempDovoljeniPremiki;
         }
 
