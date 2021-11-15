@@ -52,20 +52,16 @@ namespace Naloga3_Sah
 
 
             //TODO 30
-            //ustvarite razred igra (razred imate pripravljen)
-            //vse dodane figure dodajte v seznam figur
+            //ustvarite razred igra (razred imate delno pripravljen)
+            //dodajte figure za oba igralca in jih izpišite na zaslon
+            //premaknite nekaj figur in ponovno izpišite stanje figur
 
             Igra igra = new Igra();
             /*
-             igra.seznam.Add(konj1);
-             igra.seznam.Add(konj2);
-             igra.seznam.Add(tekac1);
-             igra.seznam.Add(tekac2);
-             igra.seznam.Add(top1);
-             igra.seznam.Add(top2);
-             igra.seznam.Add(kralj1);
-             //dodamo še kraljico1
-             igra.izrisiStanjeIgre(); */
+             igra.igralec1.Add(konj1);
+             ....
+            
+            igra.izrisiStanjeIgre(); */
 
 
         }
